@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_card">
+
+        <TextView android:id="@+id/tvDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/add_task" android:textSize="15sp" android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_primary" android:layout_marginBottom="16dp"/>
+
+        <!-- Title -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/task_title_label" android:textSize="12sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="5dp"/>
+        <EditText android:id="@+id/etTitle" android:layout_width="match_parent" android:layout_height="40dp"
+            android:hint="@string/task_title_hint" android:background="@drawable/bg_input" android:textSize="13sp"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+            android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="text"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Description -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/description_optional" android:textSize="12sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="5dp"/>
+        <EditText android:id="@+id/etDesc" android:layout_width="match_parent" android:layout_height="40dp"
+            android:hint="@string/desc_hint" android:background="@drawable/bg_input" android:textSize="13sp"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+            android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="text"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Priority + Category row -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/priority" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="5dp"/>
+                <Spinner android:id="@+id/spinPriority" android:layout_width="match_parent" android:layout_height="40dp"
+                    android:background="@drawable/bg_input" android:paddingStart="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/task_category" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="5dp"/>
+                <Spinner android:id="@+id/spinCategory" android:layout_width="match_parent" android:layout_height="40dp"
+                    android:background="@drawable/bg_input" android:paddingStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Date + Time row -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/alarm_date" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="5dp"/>
+                <Button android:id="@+id/btnDate" android:layout_width="match_parent" android:layout_height="40dp"
+                    android:text="Select date" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:background="@drawable/bg_input" android:gravity="center_vertical|start"
+                    android:paddingStart="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/alarm_time" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="5dp"/>
+                <Button android:id="@+id/btnTime" android:layout_width="match_parent" android:layout_height="40dp"
+                    android:text="Select time" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:background="@drawable/bg_input" android:gravity="center_vertical|start"
+                    android:paddingStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Repeat checkbox -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="16dp">
+            <CheckBox android:id="@+id/cbRepeat" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/repeat_daily" android:textSize="13sp" android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="end">
+            <Button android:id="@+id/btnCancel" android:layout_width="wrap_content" android:layout_height="38dp"
+                android:text="@string/cancel" android:textSize="13sp" android:textColor="@color/text_primary"
+                android:background="@drawable/bg_btn_secondary" android:layout_marginEnd="8dp"/>
+            <Button android:id="@+id/btnSave" android:layout_width="wrap_content" android:layout_height="38dp"
+                android:text="@string/save" android:textSize="13sp" android:textColor="@color/bg_primary"
+                android:background="@drawable/bg_btn_primary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

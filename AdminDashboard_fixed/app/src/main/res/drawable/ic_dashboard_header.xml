@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp" android:height="80dp"
+    android:viewportWidth="200" android:viewportHeight="80">
+    <!-- Bar chart bars -->
+    <path android:fillColor="#185FA5" android:fillAlpha="0.15"
+        android:pathData="M10,70 L10,45 L22,45 L22,70 Z"/>
+    <path android:fillColor="#185FA5" android:fillAlpha="0.3"
+        android:pathData="M26,70 L26,30 L38,30 L38,70 Z"/>
+    <path android:fillColor="#185FA5" android:fillAlpha="0.5"
+        android:pathData="M42,70 L42,50 L54,50 L54,70 Z"/>
+    <path android:fillColor="#185FA5" android:fillAlpha="0.7"
+        android:pathData="M58,70 L58,20 L70,20 L70,70 Z"/>
+    <path android:fillColor="#185FA5"
+        android:pathData="M74,70 L74,35 L86,35 L86,70 Z"/>
+    <!-- Trend line -->
+    <path android:strokeColor="#3B6D11" android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M10,60 L26,50 L42,55 L58,30 L74,40 L90,25"/>
+    <!-- Dots on line -->
+    <path android:fillColor="#3B6D11"
+        android:pathData="M88,25 C88,23 89,22 90,22 C91,22 92,23 92,25 C92,27 91,28 90,28 C89,28 88,27 88,25Z"/>
+    <!-- Currency symbol -->
+    <path android:fillColor="#185FA5" android:fillAlpha="0.2"
+        android:pathData="M150,15 C140,15 132,23 132,33 C132,43 140,51 150,51 C160,51 168,43 168,33 C168,23 160,15 150,15Z"/>
+    <path android:fillColor="#185FA5"
+        android:pathData="M150,22 L150,44 M144,27 C144,27 146,24 150,24 C154,24 156,27 156,30 C156,33 154,35 150,35 C146,35 144,38 144,41 C144,44 146,44 150,44 C154,44 156,41 156,41"/>
+</vector>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.admindashboard.app-mergeReleaseResources-46:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\VISHWAS\\Downloads\\AdminDashboard_PWA\\caches\\8.9\\transforms\\182dc54ff1f84f64cfd6590884e8370d\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

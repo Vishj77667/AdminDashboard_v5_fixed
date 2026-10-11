@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_item_task.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_avatar.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_avatar.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_fragment_customers.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_customers.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_sidebar.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_sidebar.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_add.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_empty_tasks.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_empty_tasks.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_danger_zone.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_danger_zone.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_customers.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_customers.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_task_check.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_task_check.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag_high.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag_high.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_empty_products.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_empty_products.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag_other.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag_other.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_task_check_done.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_task_check_done.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_activity_main.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_dialog_add_product.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_add_product.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_fragment_admin.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_admin.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_bell.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_bell.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_item_product.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_products.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_products.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_input.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_btn_primary.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_btn_primary.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag_low.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag_low.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_item_customer.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_customer.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_dialog_add_customer.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_add_customer.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag_work.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag_work.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_chip_active.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_chip_active.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_btn_secondary.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_btn_secondary.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_alarm_dialog.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_alarm_dialog.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_dialog_alarm.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_alarm.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_admin.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_admin.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_dialog_add_task.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_add_task.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_metric_card.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_metric_card.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_product_placeholder.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_product_placeholder.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag_personal.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag_personal.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_dashboard_header.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_dashboard_header.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_tag_medium.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_tag_medium.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/navigation_nav_graph.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/color_nav_item_color.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_empty_customers.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_empty_customers.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_card.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_fragment_products.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_products.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_fragment_tasks.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_tasks.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_btn_danger.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_btn_danger.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_paid_btn.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_paid_btn.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/layout_item_log.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_log.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_bg_notif_dot.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/bg_notif_dot.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-release-48:/drawable_ic_tasks.xml.flat",
+        "source": "com.example.admindashboard.app-main-49:/drawable/ic_tasks.xml"
+    }
+]

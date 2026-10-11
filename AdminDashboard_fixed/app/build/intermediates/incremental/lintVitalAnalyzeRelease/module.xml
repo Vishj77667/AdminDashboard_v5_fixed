@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\app1\AdminDashboard_v5_fixed\AdminDashboard_fixed\app"
+    name=":app"
+    type="APP"
+    maven="AdminDashboard:app:unspecified"
+    agpVersion="8.5.0"
+    buildFolder="build"
+    bootClassPath="C:\Users\VISHWAS\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\VISHWAS\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

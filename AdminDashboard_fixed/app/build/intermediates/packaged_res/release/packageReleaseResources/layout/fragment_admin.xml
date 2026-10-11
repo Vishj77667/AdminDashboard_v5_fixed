@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tertiary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Dashboard Header Banner -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:background="@drawable/bg_card"
+            android:padding="16dp" android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Admin Dashboard" android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Overview &amp; Controls" android:textSize="12sp"
+                    android:textColor="@color/text_secondary" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <ImageView android:layout_width="100dp" android:layout_height="40dp"
+                android:src="@drawable/ic_dashboard_header"
+                android:scaleType="fitEnd"
+                android:contentDescription="Dashboard chart"/>
+        </LinearLayout>
+
+        <!-- Data Summary -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:background="@drawable/bg_metric_card" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Products" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                <TextView android:id="@+id/tvProductCount" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:background="@drawable/bg_metric_card" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Customers" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                <TextView android:id="@+id/tvCustomerCount" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginEnd="6dp"
+                android:background="@drawable/bg_metric_card" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Total Due" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                <TextView android:id="@+id/tvTotalDue" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="15sp" android:fontFamily="sans-serif-medium" android:textColor="@color/delta_down" android:text="₹0"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_metric_card" android:orientation="vertical" android:padding="12dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Pending" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+                <TextView android:id="@+id/tvTasksPending" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/stock_low" android:text="0"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Export Card -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/export_backup" android:textSize="14sp" android:fontFamily="sans-serif-medium"
+                android:textColor="@color/text_primary" android:layout_marginBottom="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/export_desc" android:textSize="12sp" android:textColor="@color/text_secondary"
+                android:lineSpacingMultiplier="1.4" android:layout_marginBottom="14dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button android:id="@+id/btnExportAll" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="@string/export_all" android:textSize="12sp" android:textColor="@color/bg_primary"
+                    android:background="@drawable/bg_btn_primary" android:layout_marginEnd="6dp"/>
+                <Button android:id="@+id/btnExportCustomers" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="Customers" android:textSize="12sp" android:textColor="@color/text_primary"
+                    android:background="@drawable/bg_btn_secondary" android:layout_marginEnd="6dp"/>
+                <Button android:id="@+id/btnExportProducts" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="Products" android:textSize="12sp" android:textColor="@color/text_primary"
+                    android:background="@drawable/bg_btn_secondary"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Restore Card -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/restore_backup" android:textSize="14sp" android:fontFamily="sans-serif-medium"
+                android:textColor="@color/text_primary" android:layout_marginBottom="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/restore_desc" android:textSize="12sp" android:textColor="@color/text_secondary"
+                android:lineSpacingMultiplier="1.4" android:layout_marginBottom="14dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical">
+                <Button android:id="@+id/btnChooseFile" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="@string/choose_file" android:textSize="12sp" android:textColor="@color/text_primary"
+                    android:background="@drawable/bg_btn_secondary" android:layout_marginEnd="8dp"/>
+                <TextView android:id="@+id/tvFileName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/no_file_selected" android:textSize="12sp" android:textColor="@color/text_tertiary"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Backup Log Card -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/backup_log" android:textSize="14sp" android:fontFamily="sans-serif-medium"
+                android:textColor="@color/text_primary" android:layout_marginBottom="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/backup_log_desc" android:textSize="12sp" android:textColor="@color/text_secondary"
+                android:layout_marginBottom="12dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvLog"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/bg_metric_card"
+                android:padding="8dp"
+                android:clipToPadding="false"/>
+            <TextView android:id="@+id/tvNoLog" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/no_actions_yet" android:textSize="12sp" android:textColor="@color/text_tertiary"
+                android:gravity="center" android:padding="16dp"/>
+        </LinearLayout>
+
+        <!-- Danger Zone -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/bg_danger_zone" android:padding="16dp"
+            android:layout_marginBottom="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/danger_zone" android:textSize="13sp" android:fontFamily="sans-serif-medium"
+                android:textColor="@color/danger_text" android:layout_marginBottom="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/danger_desc" android:textSize="12sp" android:textColor="@color/text_secondary"
+                android:lineSpacingMultiplier="1.4" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginBottom="8dp">
+                <Button android:id="@+id/btnClearCustomers" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="Clear Customers" android:textSize="11sp" android:textColor="@color/danger_text"
+                    android:background="@drawable/bg_btn_danger" android:layout_marginEnd="6dp"/>
+                <Button android:id="@+id/btnClearProducts" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="Clear Products" android:textSize="11sp" android:textColor="@color/danger_text"
+                    android:background="@drawable/bg_btn_danger"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button android:id="@+id/btnClearTasks" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="Clear Tasks" android:textSize="11sp" android:textColor="@color/danger_text"
+                    android:background="@drawable/bg_btn_danger" android:layout_marginEnd="6dp"/>
+                <Button android:id="@+id/btnClearAll" android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="Clear Everything" android:textSize="11sp" android:textColor="@color/danger_text"
+                    android:background="@drawable/bg_btn_danger"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

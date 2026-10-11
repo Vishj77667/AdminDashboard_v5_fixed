@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/item_product.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/dialog_add_customer.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_add_customer.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/dialog_alarm.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_alarm.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/dialog_add_product.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_add_product.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/fragment_customers.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_customers.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/dialog_add_task.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/dialog_add_task.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/fragment_tasks.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_tasks.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/item_task.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/fragment_admin.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_admin.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/activity_main.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/item_log.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_log.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/item_customer.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/item_customer.xml"
+    },
+    {
+        "merged": "com.example.admindashboard.app-mergeReleaseResources-47:/layout/fragment_products.xml",
+        "source": "com.example.admindashboard.app-main-49:/layout/fragment_products.xml"
+    }
+]

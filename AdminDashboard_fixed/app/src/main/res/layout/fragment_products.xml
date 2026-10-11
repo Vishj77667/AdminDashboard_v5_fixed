@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_tertiary">
+
+    <!-- Stats Row -->
+    <LinearLayout
+        android:id="@+id/statsRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:id="@+id/cardTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/bg_metric_card"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView android:id="@+id/tvTotalLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Total" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+            <TextView android:id="@+id/tvTotalValue" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardInStock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/bg_metric_card"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="In Stock" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+            <TextView android:id="@+id/tvInStockValue" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/stock_ok"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardLowStock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_metric_card"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Low Stock" android:textSize="11sp" android:textColor="@color/text_secondary"/>
+            <TextView android:id="@+id/tvLowStockValue" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/stock_low"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Toolbar: Search + Filter + Add -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Search -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="38dp"
+                android:background="@drawable/bg_input"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginEnd="8dp">
+                <EditText
+                    android:id="@+id/etSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/search_products"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/text_tertiary"
+                    android:inputType="text"
+                    android:singleLine="true"/>
+            </LinearLayout>
+
+            <!-- Add Button -->
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="@string/add_product"
+                android:textSize="13sp"
+                android:textColor="@color/bg_primary"
+                android:background="@drawable/bg_btn_primary"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"/>
+
+        </LinearLayout>
+
+        <!-- Filter Chips -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginTop="8dp">
+            <LinearLayout
+                android:id="@+id/filterChips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_metric_card"
+                android:padding="3dp">
+
+                <TextView android:id="@+id/chipAll" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/filter_all" android:textSize="12sp" android:paddingStart="12dp"
+                    android:paddingEnd="12dp" android:paddingTop="5dp" android:paddingBottom="5dp"
+                    android:textColor="@color/text_primary" android:background="@drawable/bg_chip_active"/>
+                <TextView android:id="@+id/chipPlans" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/filter_plans" android:textSize="12sp" android:paddingStart="12dp"
+                    android:paddingEnd="12dp" android:paddingTop="5dp" android:paddingBottom="5dp"
+                    android:textColor="@color/text_secondary" android:layout_marginStart="2dp"/>
+                <TextView android:id="@+id/chipAddons" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/filter_addons" android:textSize="12sp" android:paddingStart="12dp"
+                    android:paddingEnd="12dp" android:paddingTop="5dp" android:paddingBottom="5dp"
+                    android:textColor="@color/text_secondary" android:layout_marginStart="2dp"/>
+                <TextView android:id="@+id/chipHardware" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/filter_hardware" android:textSize="12sp" android:paddingStart="12dp"
+                    android:paddingEnd="12dp" android:paddingTop="5dp" android:paddingBottom="5dp"
+                    android:textColor="@color/text_secondary" android:layout_marginStart="2dp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <!-- Products RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:clipToPadding="false"/>
+
+    <!-- Empty state -->
+    <LinearLayout
+        android:id="@+id/tvEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+        <ImageView android:layout_width="120dp" android:layout_height="120dp"
+            android:src="@drawable/ic_empty_products"
+            android:contentDescription="No products"
+            android:layout_marginBottom="12dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/no_products" android:textColor="@color/text_secondary"
+            android:textSize="14sp" android:fontFamily="sans-serif-medium"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Tap + to add your first product"
+            android:textColor="@color/text_tertiary" android:textSize="12sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+</LinearLayout>

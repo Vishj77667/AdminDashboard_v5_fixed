@@ -1,0 +1,4 @@
+com.example.admindashboard.test.app-androidTest-0 C:\app1\AdminDashboard_v5_fixed\AdminDashboard_fixed\app\build\generated\res\resValues\androidTest\debug
+com.example.admindashboard.test.app-mergeDebugAndroidTestResources-1 C:\app1\AdminDashboard_v5_fixed\AdminDashboard_fixed\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.admindashboard.test.app-mergeDebugAndroidTestResources-2 C:\app1\AdminDashboard_v5_fixed\AdminDashboard_fixed\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.admindashboard.test.app-debugAndroidTest-3 C:\app1\AdminDashboard_v5_fixed\AdminDashboard_fixed\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

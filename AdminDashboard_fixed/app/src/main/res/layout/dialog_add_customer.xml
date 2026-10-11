@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_card">
+
+        <TextView android:id="@+id/tvDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/add_customer" android:textSize="15sp" android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_primary" android:layout_marginBottom="16dp"/>
+
+        <!-- Name -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/customer_name" android:textSize="12sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="5dp"/>
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="40dp"
+            android:hint="@string/customer_name_hint" android:background="@drawable/bg_input" android:textSize="13sp"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+            android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="textPersonName"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Phone -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/phone_number" android:textSize="12sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="5dp"/>
+        <EditText android:id="@+id/etPhone" android:layout_width="match_parent" android:layout_height="40dp"
+            android:hint="@string/phone_hint" android:background="@drawable/bg_input" android:textSize="13sp"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+            android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="phone"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Bill + Paid row -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="12dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/total_bill" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="5dp"/>
+                <EditText android:id="@+id/etBill" android:layout_width="match_parent" android:layout_height="40dp"
+                    android:hint="0" android:background="@drawable/bg_input" android:textSize="13sp"
+                    android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+                    android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="number"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/amount_paid" android:textSize="12sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="5dp"/>
+                <EditText android:id="@+id/etPaid" android:layout_width="match_parent" android:layout_height="40dp"
+                    android:hint="0" android:background="@drawable/bg_input" android:textSize="13sp"
+                    android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+                    android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="number"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Due date -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/due_date" android:textSize="12sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="5dp"/>
+        <Button android:id="@+id/btnDueDate" android:layout_width="match_parent" android:layout_height="40dp"
+            android:text="Select date" android:textSize="13sp" android:textColor="@color/text_secondary"
+            android:background="@drawable/bg_input" android:gravity="center_vertical|start"
+            android:paddingStart="10dp" android:layout_marginBottom="12dp"/>
+
+        <!-- Note -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/note_optional" android:textSize="12sp" android:textColor="@color/text_secondary"
+            android:layout_marginBottom="5dp"/>
+        <EditText android:id="@+id/etNote" android:layout_width="match_parent" android:layout_height="40dp"
+            android:hint="@string/note_hint" android:background="@drawable/bg_input" android:textSize="13sp"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_tertiary"
+            android:paddingStart="10dp" android:paddingEnd="10dp" android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Buttons -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="end">
+            <Button android:id="@+id/btnCancel" android:layout_width="wrap_content" android:layout_height="38dp"
+                android:text="@string/cancel" android:textSize="13sp" android:textColor="@color/text_primary"
+                android:background="@drawable/bg_btn_secondary" android:layout_marginEnd="8dp"/>
+            <Button android:id="@+id/btnSave" android:layout_width="wrap_content" android:layout_height="38dp"
+                android:text="@string/save" android:textSize="13sp" android:textColor="@color/bg_primary"
+                android:background="@drawable/bg_btn_primary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

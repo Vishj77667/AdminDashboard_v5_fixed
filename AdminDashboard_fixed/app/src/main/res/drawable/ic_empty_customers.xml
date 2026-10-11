@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp" android:height="120dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <!-- People silhouettes -->
+    <!-- Person 1 (left) -->
+    <path android:fillColor="#D0E4F5"
+        android:pathData="M35,45 C35,45 25,47 23,55 L23,72 L47,72 L47,55 C45,47 35,45 35,45Z"/>
+    <path android:fillColor="#D0E4F5"
+        android:pathData="M35,35 C31,35 28,38 28,42 C28,46 31,49 35,49 C39,49 42,46 42,42 C42,38 39,35 35,35Z"/>
+    <!-- Person 2 (center, front) -->
+    <path android:fillColor="#185FA5"
+        android:pathData="M60,48 C60,48 48,51 46,61 L46,80 L74,80 L74,61 C72,51 60,48 60,48Z"/>
+    <path android:fillColor="#185FA5"
+        android:pathData="M60,36 C55,36 51,40 51,45 C51,50 55,54 60,54 C65,54 69,50 69,45 C69,40 65,36 60,36Z"/>
+    <!-- Person 3 (right) -->
+    <path android:fillColor="#D0E4F5"
+        android:pathData="M85,45 C85,45 75,47 73,55 L73,72 L97,72 L97,55 C95,47 85,45 85,45Z"/>
+    <path android:fillColor="#D0E4F5"
+        android:pathData="M85,35 C81,35 78,38 78,42 C78,46 81,49 85,49 C89,49 92,46 92,42 C92,38 89,35 85,35Z"/>
+    <!-- Plus circle -->
+    <path android:fillColor="#3B6D11"
+        android:pathData="M60,88 C56,88 53,91 53,95 C53,99 56,102 60,102 C64,102 67,99 67,95 C67,91 64,88 60,88Z"/>
+    <path android:fillColor="#FFFFFF" android:strokeWidth="0"
+        android:pathData="M58,95 L62,95 M60,93 L60,97"/>
+</vector>

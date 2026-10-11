@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_products">
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.example.admindashboard.fragments.ProductsFragment"
+        android:label="@string/nav_products"/>
+
+    <fragment
+        android:id="@+id/nav_customers"
+        android:name="com.example.admindashboard.fragments.CustomersFragment"
+        android:label="@string/nav_customers"/>
+
+    <fragment
+        android:id="@+id/nav_tasks"
+        android:name="com.example.admindashboard.fragments.TasksFragment"
+        android:label="@string/nav_tasks"/>
+
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.example.admindashboard.fragments.AdminFragment"
+        android:label="@string/nav_admin"/>
+
+</navigation>
